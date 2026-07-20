@@ -2,6 +2,9 @@
 layout: home
 
 hero:
+  image:
+    src: /logo.png
+    alt: RBW
   name: "RB-Ware CS Copilot"
   text: "Customer Support Knowledge Base"
   tagline: Rainbow Robotics RB Cobot & RB-X Welding — documentation, policy, and field-confirmed corrections for support agents.
