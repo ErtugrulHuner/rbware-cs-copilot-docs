@@ -28,4 +28,4 @@ Also on the Welder page (A.out):
 ## Teaching (simple straight weld)
 Start point (before weld) → **Start welding** → End point (before weld end) → **Weld Termination**. A start/end pair is mandatory — a missing command causes an error.
 
-See also [RB X Software Guide](/software/rb-x-guide.md) for general Weaving/Shift/D-A Output extension features that apply on top of this setup, and [Multi Pass Feature](/feature-guides/multi-pass.md) / [Data Transfer Feature](/feature-guides/data-transfer.md) for additional Maven-agnostic features.
+See also [RB X Software Guide](/software/rb-x-guide.md) for general Weaving/Shift/D-A Output extension features that apply on top of this setup, and [Multi Pass Feature](/feature-guides/multi-pass.md) for additional Maven-agnostic features.
