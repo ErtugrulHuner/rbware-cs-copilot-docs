@@ -11,8 +11,8 @@ Corrections and precedents confirmed in the field by **Jude (RB-Ware CS)**. Thes
 
 **A-code exception:** activation error codes (A7, A17, A20–31, A58, A131, etc.) are confirmed identical between Rainbow Robotics docs and RB-X — cite directly without caveating.
 
-## Windows version — instability policy (per Jude/Rainbow, 06.07.2026)
-Rainbow considers the Windows app **unstable** and is not officially planning to fix newly discovered Windows-version issues.
+## Windows version — instability policy (per Jude/RB-Ware, 06.07.2026)
+RB-Ware considers the Windows app **unstable** and is not officially planning to fix newly discovered Windows-version issues.
 1. First recommend restarting the app or restarting Windows (resolves most cases).
 2. Where appropriate, recommend migrating to the Android version as soon as possible.
 
