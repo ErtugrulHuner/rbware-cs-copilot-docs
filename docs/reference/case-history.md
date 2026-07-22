@@ -3,7 +3,7 @@
 _Source: `CS_Case_History.md` / `CS_Case_History_anonymized.md` — real customer-service cases handled by RB-Ware's field service engineer, merged from the CS Report and CS Report List. Written in Korean; product names, model numbers, and UI labels are kept exact and untranslated in the source._
 
 ## How to use this file
-Treat it as **field precedent, not documented procedure** — see [CS Copilot Policy and Workflow](/policy/copilot-policy.md) for the full rule. It records what one engineer did **on-site**, often hands-on hardware repair (opening the control box, swapping a mainboard or Safety board, soldering, replacing connectors, or factory return/입고). Never turn a case resolution into self-service instructions for an operator.
+Treat it as **field precedent, not documented procedure** — see the CS Copilot operating policy for the full rule. It records what one engineer did **on-site**...
 
 ## Record structure
 Each case entry follows this format:
