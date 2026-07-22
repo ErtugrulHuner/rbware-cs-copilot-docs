@@ -64,6 +64,6 @@ _Source: `RB-MIG_v1_0_0_User_Manual.md` — RB-X software UI manual (Latest Ver 
 ### Move C (curve)
 Recommended **only within a welding section**.
 1. Starting point registered as **Move L**.
-2. All following curve points registered as **Move C** (minimum 4 points total, e.g. L-C-C-C or L-C-C-C-C).
+2. All following curve points registered as **Move C** (minimum 2 points total, e.g. L-C-C-C or L-C-C-C-C).
 3. **Weld Start** goes right after the starting point.
 4. **Weld End** goes right after the last **Move C**.
