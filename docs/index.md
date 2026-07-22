@@ -7,8 +7,7 @@ hero:
     alt: RBW
   name: "RB-Ware"
   text: "Customer Support Knowledge Base"
-  tagline: Rainbow Robotics RB Cobot & RB-X Welding — documentation, policy, and field-confirmed corrections for support agents.
-  actions:
+  tagline: Documentation and setup guides for Rainbow Robotics RB Cobot & RB-X welding systems.  actions:
     - theme: brand
       text: Start with Product Introduction
       link: /product-introduction/cobot-system
