@@ -1,5 +1,5 @@
 export default {
-  title: "RB-Ware CS Copilot Docs",
+  title: "RB-Ware",
   description: "Rainbow Robotics RB Cobot & RB-X Welding — Customer Support Knowledge Base",
   base: "/rbware-cs-copilot-docs/",
   lastUpdated: true,
