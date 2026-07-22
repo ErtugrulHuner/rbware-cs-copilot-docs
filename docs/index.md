@@ -13,8 +13,8 @@ hero:
       text: Start with Product Introduction
       link: /product-introduction/cobot-system
     - theme: alt
-      text: CS Copilot Policy
-      link: /policy/copilot-policy
+      text: Quick Reference
+      link: /policy/quick-reference
 
 features:
   - title: Robot Hardware & Safety
@@ -24,9 +24,9 @@ features:
   - title: Welder Integration
     details: Brand-specific setup guides for Kemppi, Maven, WECO, and IMT welders.
   - title: Feature Guides
-    details: Multi-Pass and Data Transfer feature walkthroughs.
+    details: Multi-Pass feature walkthrough.
   - title: Reference & Diagnostics
     details: Error codes, CS case history, and internal tracker documentation.
   - title: Policy & Workflow
-    details: Field-confirmed corrections and precedents, quick reference, and the CS Copilot operating policy.
+    details: Field-confirmed corrections and precedents, and quick reference.
 ---
