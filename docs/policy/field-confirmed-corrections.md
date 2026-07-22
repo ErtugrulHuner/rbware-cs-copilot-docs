@@ -80,9 +80,7 @@ No setup/pairing/calibration/safety documentation exists in the knowledge base �
 **Known hardware fragility:** the RB-Ring connector/flange (near the tool flange) breaks easily in collisions, often alongside the tool flange connector — see Cases 6, 9, 25, 47, RBW-QP-0062/Case 62. Two hardware versions exist (older fixed-cable vs. newer detachable/quick-changer) — **confirm which one via photo before sending parts**. Recommend connector replacement (on-site AS, or self-swap only if customer has the detachable version) and check for debris inside the connector. Do **not** guide customers through self-repair of the wiring (a past self-repair attempt failed and had to be corrected by RB-Ware).
 
 ## Mini PC — role and when it's mandatory
-Originally just server communication/data collection. It is now the **mandatory safety-critical path** for cutting the weld signal in an emergency...
-- **Korean manual/Analog welders** (RB-X > MIG > Analog mode) have their own established emergency-stop system independent of the Mini PC — for basic operation, Mini PC is **optional** there.
-- **Exception:** even in Analog mode, **Program Scheduler (Play mode)** and **Ext. Axis** both **require** a Mini PC regardless. Check whether the customer's Analog setup uses either before saying Mini PC is optional.
+Originally just server communication/data collection. It is now the **mandatory safety-critical path** for cutting the weld signal in an emergency (robot/comm/welder fault) when using **digital welders** (Kemppi, Kolarc, ESAB, Fronius, WECO, Megmeet) — these connect via a single LAN cable and are otherwise controlled through the robot, which can't be trusted to stop welding reliably if the robot itself faults.
 
 **Rough regional prior (always confirm from the ticket):** Korean customers mostly use Analog or Laser mode; overseas customers mostly use digital welders, making the Mini PC near-mandatory for them.
 
@@ -95,4 +93,4 @@ Before jumping to a documented fix, gather (in this order, before the standard "
 2. Whether it's reproducible (every time vs. intermittent)
 3. Any recent changes (software update, new peripheral, cabling, welder settings)
 4. The exact verbatim on-screen error message
-5. Whether the operator already tried what the error message itself suggested, and what happened
+5. Whether the operator already tried what the error message itself suggested, and what happened.
