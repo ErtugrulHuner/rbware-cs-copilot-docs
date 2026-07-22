@@ -1,6 +1,6 @@
 export default {
   title: "RB-Ware",
-  description: "Rainbow Robotics RB Cobot & RB-X Welding — Customer Support Knowledge Base",
+description: "Documentation and setup guides for Rainbow Robotics RB Cobot & RB-X welding systems",
   base: "/rbware-cs-copilot-docs/",
   lastUpdated: true,
 
