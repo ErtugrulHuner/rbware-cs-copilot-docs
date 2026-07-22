@@ -30,8 +30,7 @@ _Source: `RB-MIG_v1_0_0_User_Manual.md` — RB-X software UI manual (Latest Ver 
   - *End*: Pre Wait (sec), Volt. Offset, Crater Time (sec) with its own Curr./Volt., Post Wait (sec).
   - *Welder channel mapping*: Arc On Ch., **Arc Standby Ch.** (WCR signal), Gas Check Ch., Inching Ch., Reverse Inch. Ch., Curr. Signal Range, Current Ch. + Range, Voltage Ch. + Range.
 
-  > **Diagnostic note:** "Arc Standby Ch." and the analog WCR-shunt concept are **Analog-mode only** — they do not apply to digital/Modbus welders (e.g. ESAB Classic), where arc/current status is read over Modbus instead. Confirm communication type (analog vs. digital/Modbus vs. fieldbus/Anybus vs. Ethernet) before advising — see [CS Copilot Policy and Workflow](/policy/copilot-policy.md).
-
+> **Diagnostic note:** "Arc Standby Ch." and the analog WCR-shunt concept are **Analog-mode only** — they do not apply to digital/Modbus welders (e.g. ESAB Classic), where arc/current status is read over Modbus instead. Confirm communication type (analog vs. digital/Modbus vs. fieldbus/Anybus vs. Ethernet) before advising.
 - **4-5 Welding Machine Setup (Kemppi Welder)**:
   - *Start*: Pre Wait, **Arc Standby** (same WCR-timeout behavior as Analog), Post Wait, **Method** (Mem w/ Adj. / Mem w/o Adj. / Manual), Memory (channel number; connected machine shows its mode: 1-MIG/Pulse/Dpulse/etc.), Feed Speed (0.5–25.0 m/min), Volt. (V) (range depends on mode: Voltage 8.0–46.0 or Fine Tuning -10~+10), Robot Speed (mm/s), CraterFill (on/off).
   - *End*: Pre Wait (sec).
