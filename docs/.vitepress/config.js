@@ -4,11 +4,17 @@ export default {
   base: "/rbware-cs-copilot-docs/",
   lastUpdated: true,
 
+  head: [
+    ["link", { rel: "icon", href: "/rbware-cs-copilot-docs/favicon.png", type: "image/png" }],
+  ],
+
   themeConfig: {
+    logo: "/logo.png",
+
     nav: [
       { text: "Home", link: "/" },
       { text: "Manual", link: "/product-introduction/cobot-system" },
-      { text: "Policy", link: "/policy/copilot-policy" },
+      { text: "Policy", link: "/policy/quick-reference" },
     ],
 
     sidebar: [
@@ -16,7 +22,6 @@ export default {
         text: "Policy & Workflow",
         collapsed: false,
         items: [
-          { text: "CS Copilot Policy and Workflow", link: "/policy/copilot-policy" },
           { text: "Field Confirmed Corrections and Precedents", link: "/policy/field-confirmed-corrections" },
           { text: "Quick Reference", link: "/policy/quick-reference" },
         ],
@@ -58,7 +63,6 @@ export default {
         collapsed: false,
         items: [
           { text: "Multi-Pass", link: "/feature-guides/multi-pass" },
-          { text: "Data Transfer", link: "/feature-guides/data-transfer" },
         ],
       },
       {
