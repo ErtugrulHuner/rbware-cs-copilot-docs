@@ -7,7 +7,7 @@ hero:
     alt: RBW
   name: "RB-Ware"
   text: "Customer Support Knowledge Base"
-tagline: Documentation and setup guides for Rainbow Robotics RB Cobot & RB-X welding systems.
+tagline: "Documentation and setup guides for Rainbow Robotics RB Cobot & RB-X welding systems."
 text: Start with Product Introduction
       link: /product-introduction/cobot-system
     - theme: alt
