@@ -30,7 +30,7 @@ Base → J0 Base Joint → J1 Shoulder → J2 Elbow → J3 Wrist 1 → J4 Wrist 
 |---|---|
 | RB3-730ES | 730 |
 | RB6-920ES | 920 |
-| RB5-850E | 927.7 |
+| RB5-850E | 850 |
 | RB3-1200E | 1200 |
 | RB10-1300E | 1300 |
 | RB16-900E | 900 |
