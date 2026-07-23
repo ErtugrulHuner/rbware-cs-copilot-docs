@@ -39,7 +39,7 @@ export default {
         ],
       },
       {
-        text: "RB-X / RB-MIG Software",
+        text: "RB-X Software",
         collapsed: false,
         items: [
           { text: "RB-X Software Guide", link: "/software/rb-x-guide" },
