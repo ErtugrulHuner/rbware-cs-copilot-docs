@@ -1,6 +1,6 @@
 export default {
   title: "RB-Ware",
-description: "Documentation and setup guides for Rainbow Robotics RB Cobot & RB-X welding systems",
+  description: "Documentation and setup guides for Rainbow Robotics RB Cobot & RB-X welding systems",
   base: "/rbware-cs-copilot-docs/",
   lastUpdated: true,
 
@@ -38,7 +38,7 @@ description: "Documentation and setup guides for Rainbow Robotics RB Cobot & RB-
           { text: "Maintenance", link: "/hardware-safety/maintenance" },
         ],
       },
-      {{
+      {
         text: "RB-X / RB-MIG Software",
         collapsed: false,
         items: [
