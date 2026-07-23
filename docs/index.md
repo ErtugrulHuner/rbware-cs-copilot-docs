@@ -19,8 +19,8 @@ hero:
 features:
   - title: Robot Hardware & Safety
     details: Installation, safety functions, precautions, startup, and maintenance for the RB Series cobots.
-  - title: RB-X / RB-MIG Software
-    details: Software overview, setup menu reference, RB-X guide, and touch sensing workflow.
+   - title: RB-X / RB-MIG Software
+    details: RB-X software guide covering connection, jog control, welding setup, and teaching methods.
   - title: Welder Integration
     details: Brand-specific setup guides for Kemppi, Maven, WECO, and IMT welders.
   - title: Feature Guides
