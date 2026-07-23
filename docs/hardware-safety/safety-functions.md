@@ -56,4 +56,4 @@ Key definitions:
 ## Environmental limits (from source table)
 Max storage temp 60°C · min operating temp 0°C · min storage temp -5°C · max humidity 80% · min humidity 20%.
 
-See also [Robot Safety and Precautions](/hardware-safety/safety-and-precautions.md) for general warnings and [Setup Menu Reference](/software/setup-menu-reference.md) for where these are configured in the UI.
+See also [Robot Safety and Precautions](/hardware-safety/safety-and-precautions.md) for general warnings.
