@@ -38,14 +38,11 @@ description: "Documentation and setup guides for Rainbow Robotics RB Cobot & RB-
           { text: "Maintenance", link: "/hardware-safety/maintenance" },
         ],
       },
-      {
+      {{
         text: "RB-X / RB-MIG Software",
         collapsed: false,
         items: [
-          { text: "Software Overview: Make/Play/Setup", link: "/software/overview" },
-          { text: "Setup Menu Reference", link: "/software/setup-menu-reference" },
           { text: "RB-X Software Guide", link: "/software/rb-x-guide" },
-          { text: "Touch Sensing", link: "/software/touch-sensing" },
         ],
       },
       {
