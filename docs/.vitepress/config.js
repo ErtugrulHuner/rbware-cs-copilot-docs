@@ -39,7 +39,7 @@ export default {
         ],
       },
       {
-        text: "RB-X Software",
+        text: "RB-X / RB-MIG Software",
         collapsed: false,
         items: [
           { text: "RB-X Software Guide", link: "/software/rb-x-guide" },
@@ -53,6 +53,27 @@ export default {
           { text: "Maven", link: "/welder-integration/maven" },
           { text: "WECO", link: "/welder-integration/weco" },
           { text: "IMT", link: "/welder-integration/imt" },
+        ],
+      },
+      {
+        text: "Communication & Interfaces",
+        collapsed: false,
+        items: [
+          { text: "Welding Machine Interface", link: "/communication-interfaces/welding-machine-interface" },
+          {
+            text: "ESAB",
+            collapsed: true,
+            items: [
+              { text: "EDGE R", link: "/communication-interfaces/esab/edge-r" },
+            ],
+          },
+          {
+            text: "Kemppi",
+            collapsed: true,
+            items: [
+              { text: "X5 FastMig / Master M (DCM)", link: "/communication-interfaces/kemppi/dcm-installation-troubleshooting" },
+            ],
+          },
         ],
       },
       {
