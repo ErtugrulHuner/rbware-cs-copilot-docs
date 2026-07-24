@@ -74,6 +74,13 @@ export default {
               { text: "X5 FastMig / Master M (DCM)", link: "/communication-interfaces/kemppi/dcm-installation-troubleshooting" },
             ],
           },
+          {
+            text: "EWM",
+            collapsed: true,
+            items: [
+              { text: "BUSINT Interface", link: "/communication-interfaces/ewm/busint-interface" },
+            ],
+          },
         ],
       },
       {
