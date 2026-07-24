@@ -42,7 +42,6 @@ RBW systems communicate with the welding power source using a specific **connect
 | OTC Daihen | Japan | Any with a Remote Control Plug | I/O | I/O |
 | Others | — | Any welder with a Remote Control Plug or trigger switch | I/O | I/O |
 
-> **EWM note:** EWM Phenix XQ / Titan XQ machines use **Ethernet/IP**, not Modbus TCP. Confirm this before shipping a communication module for an EWM installation.
 
 ## Planned support (not yet available)
 
