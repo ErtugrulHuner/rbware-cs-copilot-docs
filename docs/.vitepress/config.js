@@ -81,6 +81,13 @@ export default {
               { text: "BUSINT Interface", link: "/communication-interfaces/ewm/busint-interface" },
             ],
           },
+          {
+            text: "Fronius",
+            collapsed: true,
+            items: [
+              { text: "TPS/i (Modbus TCP)", link: "/communication-interfaces/fronius/tps-i-modbus" },
+            ],
+          },
         ],
       },
       {
