@@ -39,10 +39,15 @@ export default {
         ],
       },
       {
-        text: "RB-X / RB-MIG Software",
+        text: "RB-X Software",
         collapsed: false,
         items: [
-          { text: "RB-X Software Guide", link: "/software/rb-x-guide" },
+          { text: "Overview & Connection", link: "/software/rb-x-guide" },
+          { text: "Main Screen (Jog & Program View)", link: "/software/main-screen" },
+          { text: "Settings Menu", link: "/software/settings-menu" },
+          { text: "Extension Menu", link: "/software/extension-menu" },
+          { text: "Tool Menu", link: "/software/tool-menu" },
+          { text: "Teaching Methods (Move L / Move C)", link: "/software/teaching-methods" },
         ],
       },
       {
