@@ -94,7 +94,16 @@ export default {
         text: "Feature Guides",
         collapsed: false,
         items: [
+          { text: "Weaving", link: "/feature-guides/weaving" },
+          { text: "Program Call", link: "/feature-guides/program-call" },
+          { text: "Shift", link: "/feature-guides/shift" },
+          { text: "Jump", link: "/feature-guides/jump" },
+          { text: "D/A Output", link: "/feature-guides/da-output" },
+          { text: "Batch Weld Mod", link: "/feature-guides/batch-weld-mod" },
+          { text: "Weld Adjust", link: "/feature-guides/weld-adjust" },
+          { text: "Ext. Axis", link: "/feature-guides/ext-axis" },
           { text: "Multi-Pass", link: "/feature-guides/multi-pass" },
+          { text: "Repeat", link: "/feature-guides/repeat" },
         ],
       },
       {
