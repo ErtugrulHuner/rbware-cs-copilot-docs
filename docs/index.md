@@ -23,8 +23,10 @@ features:
     details: RB-X software guide covering connection, jog control, welding setup, and teaching methods.
   - title: Welder Integration
     details: Brand-specific setup guides for Kemppi, Maven, WECO, and IMT welders.
+  - title: Communication & Interfaces
+    details: Welding machine protocol reference and brand-specific integration guides for ESAB, Kemppi, EWM, and Fronius.
   - title: Feature Guides
-    details: Multi-Pass feature walkthrough.
+    details: Weaving, Program Call, Shift, Jump, D/A Output, Batch Weld Mod, Weld Adjust, Ext. Axis, Multi-Pass, and Repeat.
   - title: Reference & Diagnostics
     details: Error codes, CS case history, and internal tracker documentation.
   - title: Policy & Workflow
