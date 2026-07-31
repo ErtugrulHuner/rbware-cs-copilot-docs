@@ -6,9 +6,13 @@ _Source: `RB-X_v2_1_0_User_Manual_ENG.md` (Sections 7–8, Latest Ver 2.1.0, 202
 - **Outside a welding section**: robot stops precisely at each point, brief pause, then continues — good for general stopovers or safety pauses.
 - **Inside a welding section**: smooth continuous movement at constant speed, automatic blending, no stop at intermediate points. To force a stop at a specific point mid-weld, insert a `Wait 0.1` command right after that point.
 
+![Example program list showing Move L lines with Arc-weld Start/End marking the welding section](/software/move-l-example.png)
+
 ## Move C (curve)
 Recommended **only within a welding section**.
 1. Starting point registered as **Move L**.
 2. All following curve points registered as **Move C** (minimum 2 points total, e.g. L-C-C-C or L-C-C-C-C).
 3. **Weld Start** goes right after the starting point.
 4. **Weld End** goes right after the last **Move C**.
+
+![Move C sequence — Start (L) then 2nd/3rd/End (C) points around a curved path](/software/move-c-diagram.png)
