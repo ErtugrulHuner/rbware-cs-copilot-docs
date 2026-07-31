@@ -13,6 +13,11 @@ The RB product line is a series of collaborative robots designed for regular, co
 | DC Control Box (CB08) | DC power input, Miniature Circuit Breaker as main switch, 12-pin robot arm connector |
 
 ## Robot arm — joint ranges
+
+<div style="display:flex; gap:2rem; align-items:flex-start; flex-wrap:wrap;">
+
+<div style="flex:1; min-width:220px;">
+
 | Joint | Range |
 |---|---|
 | J1 | ±360° |
@@ -22,7 +27,15 @@ The RB product line is a series of collaborative robots designed for regular, co
 | J5 | ±360° |
 | J6 | ±360° |
 
+</div>
+
+<div style="flex:0 0 auto; max-width:280px;">
+
 ![RB Series joint layout (J1–J6) with base and tool flange coordinate axes](/product-introduction/joint-ranges-diagram.png)
+
+</div>
+
+</div>
 
 ## Robot arm parts
 Base → J0 Base Joint → J1 Shoulder → J2 Elbow → J3 Wrist 1 → J4 Wrist 2 → J5 Wrist 3 → Tool Flange (for gripper/tool) → Teaching Button (direct teaching) → I/O Connector A/B (Non-E/E: A only; U-Version: A+B) → Robot–Control Box Connector.
