@@ -40,4 +40,4 @@ Real-time adjustment during welding (Kemppi-only in this version — planned for
 - **Fine Tune** — calibrates weld voltage within **±10.0**.
 - **Robot Speed (%)** — scales robot speed **-100 to 100%** (e.g. 5mm/s base at 100% → 10mm/s; at 50% → 7.5mm/s).
 
-See also [RB X Software Guide](/software/rb-x-guide.md) (sections 4-5 and 5-7) for the same settings described in the general RB-MIG UI manual.
+See also [Settings Menu](/software/settings-menu.md) (4-5 Welding Machine Setup) and [Weld Adjust](/feature-guides/weld-adjust.md) for the same settings described in the general RB-MIG UI manual.
