@@ -41,10 +41,3 @@ Lets you save **multiple named TCP/tool profiles** and switch between them quick
 > **Diagnostic note:** "Arc Standby Ch." and the analog WCR-shunt concept are **Analog-mode only** — they do not apply to digital/Modbus welders (e.g. ESAB Classic), where arc/current status is read over Modbus instead. Confirm communication type (analog vs. digital/Modbus vs. fieldbus/Anybus vs. Ethernet) before advising.
 
 ![Analog Welding Start page — Pre Wait, Arc Standby, Robot Speed, Curr./Volt.](/welding-setup-analog.png)
-
-## 4-6 Welding Machine Setup (Kemppi Welder)
-- *Start*: Pre Wait, **Arc Standby** (same WCR-timeout behavior as Analog), Post Wait, **Method** (Mem w/ Adj. / Mem w/o Adj. / Manual), Memory (channel number; connected machine shows its mode: 1-MIG/Pulse/Dpulse/etc.), Feed Speed (0.5–25.0 m/min), Volt. (V) (range depends on mode: Voltage 8.0–46.0 or Fine Tuning -10~+10), Robot Speed (mm/s), CraterFill (on/off).
-- *End*: Pre Wait (sec).
-- See [Welder Integration Kemppi](/welder-integration/kemppi.md) for the brand-specific slide-deck version of this same setup, and [Weld Adjust](/feature-guides/weld-adjust.md) for the real-time Kemppi wire feed/fine-tune adjustment feature.
-
-![Kemppi Welding Start page — Method, Memory, Feed Speed, Robot Speed, craterFill](/welding-setup-kemppi.png)
