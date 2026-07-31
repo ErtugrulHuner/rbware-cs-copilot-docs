@@ -18,7 +18,7 @@ The RB-MIG UI is broadly split into four areas:
 3. **Title & Status bar** — shows the current app version; status/error messages pop up here.
 4. **Left Side Bar Menu** — **Connect**, **Setup**, **Extension**, **Tool** buttons. At the bottom of this sidebar are the connected welding machine's manual test buttons: **Gas Check**, **Inching**, and **Back Inching** (reverse inching) — use these to manually check gas flow or feed/retract the wire without running a program.
 
-![RB-MIG UI overview — Jog Control, Program View, and the left side bar menu](/software/program-buttons-overview.png)
+![RB-MIG UI overview — Jog Control, Program View, and the left side bar menu](/program-buttons-overview.png)
 
 ## 2. Robot Connection
 1. Confirm the tablet Wi-Fi and control box are on the same network.
@@ -31,4 +31,4 @@ The RB-MIG UI is broadly split into four areas:
 8. Click **Connect** — look for the connection-success message. If it fails, recheck IP and Wi-Fi, then retry.
 9. Once connected, the robot is in a teachable state.
 
-![Setup menu — System Set, Utilities, TCP Set, Welding Set](/software/system-set-connection.png)
+![Setup menu — System Set, Utilities, TCP Set, Welding Set](/system-set-connection.png)

@@ -13,7 +13,7 @@ Replaces the jog area with an I/O display.
 
 > **Diagnostic note:** I/O Tester tests a **physical DI/DO port** — it doesn't apply to arc/current feedback read digitally over Modbus/fieldbus. Confirm communication type before recommending it.
 
-![I/O Tester — Output tab: Digital Output channels and Analog Output values](/software/io-tester.png)
+![I/O Tester — Output tab: Digital Output channels and Analog Output values](/io-tester.png)
 
 ## 6-3 Program Scheduler
 Registers up to 4 `.wsl` programs to P1–P4 buttons, triggered by an assigned external switch/DI. Pressing P1→P2→P3 in sequence auto-chains them (next starts when the previous ends).
@@ -26,6 +26,6 @@ Registers up to 4 `.wsl` programs to P1–P4 buttons, triggered by an assigned e
 
 Optionally set an **LED Ch.** per button — an LED wired to that Dout channel then shows the program's running/scheduled state (e.g. blinking while running, solid while scheduled/waiting).
 
-![Program Scheduler — Select Programs: P1–P4 slots, Button Configuration, Upload and Start](/software/program-scheduler.png)
+![Program Scheduler — Select Programs: P1–P4 slots, Button Configuration, Upload and Start](/program-scheduler.png)
 
 **Requires a Mini PC regardless of welder mode** — see [Field Confirmed Corrections and Precedents](/policy/field-confirmed-corrections.md).

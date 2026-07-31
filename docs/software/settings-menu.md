@@ -12,7 +12,7 @@ _Source: `RB-X_v2_1_0_User_Manual_ENG.md` (Section 4, Latest Ver 2.1.0, 2026/3/2
   - **Digital Output Map** / **Digital Input Map** — shows which DOUT/DIN channels are allocated in the current mode (settings are remembered per mode and won't be duplicated — release existing settings first if you need to reassign a channel).
   - **Ext Digital Output Map** / **Ext Digital Input Map** — same, for an external I/O expansion module.
 
-![System Set — I/O tab: Digital Output/Input Map and Move L/C, Arc On/Off channel assignment](/software/system-set-io.png)
+![System Set — I/O tab: Digital Output/Input Map and Move L/C, Arc On/Off channel assignment](/system-set-io.png)
 
 ## 4-2 Utility
 - **Basic Posture** / **Packing Posture** — hold to move the robot into position; **check surroundings first — collision risk**.
@@ -22,7 +22,7 @@ _Source: `RB-X_v2_1_0_User_Manual_ENG.md` (Section 4, Latest Ver 2.1.0, 2026/3/2
 - **Auto**: register 4 postures where the torch tip touches one physical point (more varied poses = better accuracy) → **Apply** → success/failure message; retry on failure.
 - **Manual**: enter **Payload** (weight + center of gravity — required even if TCP is Auto) and **End Effector Center Position** (X/Y/Z auto-filled by Auto TCP; RX/RY/RZ always manual). Use torch manufacturer data if available, otherwise measure directly.
 
-![TCP Set — Auto mode: register 4 postures and Apply](/software/tcp-settings-auto.png)
+![TCP Set — Auto mode: register 4 postures and Apply](/tcp-settings-auto.png)
 
 ## 4-4 TCP Manager
 Lets you save **multiple named TCP/tool profiles** and switch between them quickly, instead of re-entering values every time you change tools.
@@ -31,7 +31,7 @@ Lets you save **multiple named TCP/tool profiles** and switch between them quick
 - The bottom of the screen shows the TCP **currently set on the robot** (Robot Values).
 - Press **Apply** next to a saved profile to push that profile's values to the robot.
 
-![TCP Manager — named TCP/tool profiles with Payload and TCP values](/software/tcp-manager.png)
+![TCP Manager — named TCP/tool profiles with Payload and TCP values](/tcp-manager.png)
 
 ## 4-5 Welding Machine Setup (Analog Welder)
 - *Start*: Pre Wait (sec, wait before arc after reaching Weld Start point), **Arc Standby (sec)** (wait for WCR signal after weld command — times out and stops welding/program if not received), Post Wait (sec), Speed (mm/s), Volt. Offset (Curr Offset / User-defined), Curr. (A), Volt. (V).
@@ -40,11 +40,11 @@ Lets you save **multiple named TCP/tool profiles** and switch between them quick
 
 > **Diagnostic note:** "Arc Standby Ch." and the analog WCR-shunt concept are **Analog-mode only** — they do not apply to digital/Modbus welders (e.g. ESAB Classic), where arc/current status is read over Modbus instead. Confirm communication type (analog vs. digital/Modbus vs. fieldbus/Anybus vs. Ethernet) before advising.
 
-![Analog Welding Start page — Pre Wait, Arc Standby, Robot Speed, Curr./Volt.](/software/welding-setup-analog.png)
+![Analog Welding Start page — Pre Wait, Arc Standby, Robot Speed, Curr./Volt.](/welding-setup-analog.png)
 
 ## 4-6 Welding Machine Setup (Kemppi Welder)
 - *Start*: Pre Wait, **Arc Standby** (same WCR-timeout behavior as Analog), Post Wait, **Method** (Mem w/ Adj. / Mem w/o Adj. / Manual), Memory (channel number; connected machine shows its mode: 1-MIG/Pulse/Dpulse/etc.), Feed Speed (0.5–25.0 m/min), Volt. (V) (range depends on mode: Voltage 8.0–46.0 or Fine Tuning -10~+10), Robot Speed (mm/s), CraterFill (on/off).
 - *End*: Pre Wait (sec).
 - See [Welder Integration Kemppi](/welder-integration/kemppi.md) for the brand-specific slide-deck version of this same setup, and [Weld Adjust](/feature-guides/weld-adjust.md) for the real-time Kemppi wire feed/fine-tune adjustment feature.
 
-![Kemppi Welding Start page — Method, Memory, Feed Speed, Robot Speed, craterFill](/software/welding-setup-kemppi.png)
+![Kemppi Welding Start page — Method, Memory, Feed Speed, Robot Speed, craterFill](/welding-setup-kemppi.png)

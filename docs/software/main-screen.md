@@ -9,7 +9,7 @@ _Source: `RB-X_v2_1_0_User_Manual_ENG.md` (Section 3, Latest Ver 2.1.0, 2026/3/2
 - **Robot Controller orientation**: the robot is installed facing the *opposite* direction of its main connector. Based on the **Base** coordinate system: **Z** = up/down, **X** = left/right, **Y** = front/back. The **RX/RY/RZ** buttons rotate around the X/Y/Z axes respectively. Keep this in mind when a customer says the robot is "moving the wrong way" — it usually means their mental frame doesn't match the connector-relative Base frame.
 - Bottom buttons: **Play**, **Stop/Pause**, **Move** (go to selected point), **Speed +/-**, **No_Arc** (movement only, no arc), **Custom Start** (start from a selected line).
 
-![Jog Control panel — Smooth/Pitch, Base/TCP/Joint, and the directional pad](/software/jog-control-panel.png)
+![Jog Control panel — Smooth/Pitch, Base/TCP/Joint, and the directional pad](/jog-control-panel.png)
 
 ## 3-2 Program View
 - **File name field**: special characters are not allowed except spacing and underbar (`_`); the first character cannot be a number.
@@ -17,8 +17,8 @@ _Source: `RB-X_v2_1_0_User_Manual_ENG.md` (Section 3, Latest Ver 2.1.0, 2026/3/2
 - **Save**: saves under the currently entered file name. **New**: starts a blank file.
 - **Side menu**: **Undo/Redo/Copy/Paste/Cut**, and the core teaching commands: **Move L** (straight line), **Move C** (curve, needs 2+ points), **Move J** (joint-space, most comfortable path), **Weld Start**, **Weld End**. See [Teaching Methods](/software/teaching-methods.md) for how Move L and Move C behave in detail.
 
-![Program View side menu — Undo/Redo/Copy/Paste/Cut and Move L/C/J, Weld Start/End](/software/program-view-panel.png)
+![Program View side menu — Undo/Redo/Copy/Paste/Cut and Move L/C/J, Weld Start/End](/program-view-panel.png)
 
 - **Switch submenu** adds: **Delete**, **Multi** (multi-select), **Skip** (disable a line without deleting it — note: skipping a Move C line causes a play error), **Wait** (pause for time or a digital/analog condition, with Time Out fallback), **Memo** (free-text note on a line, for other operators/agents reading the program later).
 
-![Switch submenu — Delete, Multi, Skip, Wait, Memo](/software/switch-submenu-wait.png)
+![Switch submenu — Delete, Multi, Skip, Wait, Memo](/switch-submenu-wait.png)
